@@ -88,3 +88,24 @@ console.log("Welcome to the Node World");
 setTimeout(latefunc,2000) // try to change the time parameter(second one) in settimeout function
 console.log("Namaste🙏")
 ```
+
+### All that glitters isn’t gold!
+The event loop is a fundamental part of Node.js and is the secret to its efficiency. However, Node.js is still limited by the amount of processing power it can harness. Complex programs that require a lot of processing significantly can slow things down. While Node.js can handle asynchronous I/O functions with ease, it is not suitable for compute-intensive applications like machine learning. Hence, it is essential to weigh the pros and cons before choosing a framework or a runtime environment.
+
+### What are Single-Threaded Applications in Node JS?
+Initially for developing simple applications we generally prefer Single-Threaded applications. But, it's not the case everytime if you're hosting a website definetely developers should be ready to dealing with mutliple user requests within no time.
+
+Single-threaded applications often get bogged down due to long processes that take time to execute. These processes can cause a block as the application needs to wait for a process to complete before moving ahead.
+
+### What are Multi-Threaded Application in Node JS?
+We want multiple users to be able to access our website simultaneously. One way would be to have multiple threads, where each thread can serve a single user. Great! Problem solved? Not exactly. Let’s look at the problem again.
+
+Each thread is serving a single user. Whether the user is reading the course or perhaps not generating any requests to the server, our idle thread is still assigned to the user.
+
+### Problem Solved?
+We can serve more users now. However, as we dive deeper into back-end development, we will come across multiple ways of doing the same thing. Efficiency is essential if we want our services to scale well. In our example, we can simply add more computing resources as we need them. While this may seem like a simple solution, it comes at the cost of getting more hardware or computational resources. Let’s see if we can do something more efficient.
+
+### Beauty of Node JS❤️
+Node.js truly excels in this area: Assume you want to read a file! you do not need to wait for the file to be read; instead, you can just ask the OS to work on it and call you back when it’s done reading. Conveniently, asynchronous processes use this very paradigm.
+
+Processes, such as fetching data from storage or making new connections, can all be performed asynchronously, ensuring that the application does not get blocked. Furthermore, Node.js processes code sequentially. Without asynchronous operations, the entire program would halt until a file is read or a setTimeout() is called.
