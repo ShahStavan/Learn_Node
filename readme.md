@@ -1,3 +1,9 @@
+# Learn Node From Scratch| with <a href="https://www.linkedin.com/in/shah-stavan-810b4819a/">Mr.Shah</a>
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1290/0*s2ivt9cecdqsXvts.gif" height="500"/>
+</p>
+
+
 ## Table of Contents
 1. [What is Node JS?](#what-is-node-js)
 2. [What are features of Node JS?](#what-are-features-of-node-js)
@@ -202,8 +208,8 @@ AngularJS, ReactJS, and VueJS are three popular JavaScript frameworks that have 
 In terms of when to use each framework, it ultimately depends on the project's specific requirements, the team's expertise, and the available resources. For example, AngularJS may be a good choice for complex enterprise applications, while ReactJS may be better suited for building scalable and complex user interfaces, and VueJS may be ideal for smaller projects or for gradually implementing a new framework in an existing project.
 </div>
 
-<p align="center"><b>Drop some ❤️ by ⭐ing repository</b></p>
-<p align="center"><i>Share the Repository</i></p>
+<h4 align="center"><b>Drop some ❤️ by ⭐ing repository</h4></p>
+<h4 align="center"><i>Share the Repository</i></h4>
 
 
 
