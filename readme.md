@@ -27,6 +27,8 @@ Node.js is an open-source, cross-platform, server-side JavaScript runtime enviro
     One popular server-side JavaScript runtime environment is Node.js. Node.js is built on the Chrome V8 JavaScript engine and provides an event-driven, non-blocking I/O model that makes it lightweight and efficient. It allows developers to build scalable, efficient, and real-time applications using JavaScript.
 </div>
 
+<div id="What are features of Node JS?">
+
 ### What are features of Node JS?
 Node.js is a popular server-side JavaScript runtime environment that provides a range of features for developers. Some of the top features of Node.js include:
 
@@ -45,6 +47,9 @@ Node.js is a popular server-side JavaScript runtime environment that provides a 
 7. Community support: Node.js has a large and active community of developers who contribute to the development of the platform, provide support, and create new tools and libraries to enhance the capabilities of Node.js.
 
 Overall, these features make Node.js a popular choice for building scalable, efficient, and real-time applications using JavaScript.
+</div>
+
+<div id="How Node works behind the hood?">
 
 ### How Node works behind the hood?
 Node.js works behind the hood by providing a runtime environment that allows developers to run JavaScript code on the server-side. Here's a brief overview of how Node.js works:
@@ -71,6 +76,9 @@ Node.js works behind the hood by providing a runtime environment that allows dev
 6. Node.js also provides a module system that allows developers to organize their code into reusable modules, which can be loaded and executed on demand.
 
 Overall, Node.js provides a flexible and efficient runtime environment that allows developers to build scalable, efficient, and real-time applications using JavaScript.
+</div>
+
+<div id="What are Asynchoronous-Callbacks and Promises in Node JS?">
 
 ### What are Asynchoronous-Callbacks and Promises in Node JS?
 Asynchronous callbacks are functions that are executed after an asynchronous operation is completed. For example, when reading a file using the fs module in Node.js, you can provide a callback function to be executed when the file has been read. This callback function will be called asynchronously, meaning that the program will continue to execute while the file is being read. Asynchronous callbacks are often used in Node.js to handle I/O operations, network requests, and other types of asynchronous operations.
@@ -80,6 +88,9 @@ Promises are another way of handling asynchronous operations in Node.js. A promi
 Promises have become increasingly popular in recent years due to their simplicity and ease of use. Promises are easy to reason about, and provide a more structured way of handling asynchronous operations than traditional callback functions.
 
 Overall, asynchronous callbacks and promises are two important features of Node.js that allow developers to write efficient and non-blocking code for handling I/O operations and other types of asynchronous tasks.
+</div>
+
+<div id="What are installation and setup steps of Node JS?">
 
 ### What are installation and setup steps of Node JS?
 1. Download the appropriate installer for your operating system from the official Node.js website 
@@ -94,6 +105,9 @@ Overall, asynchronous callbacks and promises are two important features of Node.
 5. To start using Node.js, you can <b>create a new JavaScript file with a .js extension</b> and begin writing code. You can run the file using the node command in the terminal, followed by the name of the file. For example, if you have a<b> file called example.js</b>, you can run it using the following command: <b><i>node example.js.</i></b>
 
 That's it! With Node.js installed and set up, you can now start building applications using the Node.js runtime environment and its extensive ecosystem of modules and packages.
+</div>
+
+<div id="Writing first Node JS code!!!😎">
 
 ### Writing first Node JS code!!!😎
 ```js
@@ -106,27 +120,45 @@ console.log("Welcome to the Node World");
 setTimeout(latefunc,2000) // try to change the time parameter(second one) in settimeout function
 console.log("Namaste🙏")
 ```
+</div>
+
+<div id="All that glitters isn’t gold!">
 
 ### All that glitters isn’t gold!
 The event loop is a fundamental part of Node.js and is the secret to its efficiency. However, Node.js is still limited by the amount of processing power it can harness. Complex programs that require a lot of processing significantly can slow things down. While Node.js can handle asynchronous I/O functions with ease, it is not suitable for compute-intensive applications like machine learning. Hence, it is essential to weigh the pros and cons before choosing a framework or a runtime environment.
+</div>
+
+<div id="What are Single-Threaded Applications in Node JS?">
 
 ### What are Single-Threaded Applications in Node JS?
 Initially for developing simple applications we generally prefer Single-Threaded applications. But, it's not the case everytime if you're hosting a website definetely developers should be ready to dealing with mutliple user requests within no time.
 
 Single-threaded applications often get bogged down due to long processes that take time to execute. These processes can cause a block as the application needs to wait for a process to complete before moving ahead.
+</div>
+
+<div id="What are Multi-Threaded Application in Node JS?">
 
 ### What are Multi-Threaded Application in Node JS?
 We want multiple users to be able to access our website simultaneously. One way would be to have multiple threads, where each thread can serve a single user. Great! Problem solved? Not exactly. Let’s look at the problem again.
 
 Each thread is serving a single user. Whether the user is reading the course or perhaps not generating any requests to the server, our idle thread is still assigned to the user.
+</div>
+
+<div id="Problem Solved?">
 
 ### Problem Solved?
 We can serve more users now. However, as we dive deeper into back-end development, we will come across multiple ways of doing the same thing. Efficiency is essential if we want our services to scale well. In our example, we can simply add more computing resources as we need them. While this may seem like a simple solution, it comes at the cost of getting more hardware or computational resources. Let’s see if we can do something more efficient.
+</div>
+
+<div id="Beauty of Node JS❤️">
 
 ### Beauty of Node JS❤️
 Node.js truly excels in this area: Assume you want to read a file! you do not need to wait for the file to be read; instead, you can just ask the OS to work on it and call you back when it’s done reading. Conveniently, asynchronous processes use this very paradigm.
 
 Processes, such as fetching data from storage or making new connections, can all be performed asynchronously, ensuring that the application does not get blocked. Furthermore, Node.js processes code sequentially. Without asynchronous operations, the entire program would halt until a file is read or a setTimeout() is called.
+</div>
+
+<div id="What is Software Stack?">
 
 ### What is Software Stack?
 The concept of a software stack or solution stack involves combining multiple software packages to create a comprehensive software solution. Node.js is a key component in several widely used web development stacks, all of which adhere to the principle of using JavaScript throughout the entire development process.
@@ -150,6 +182,9 @@ The concept of a software stack or solution stack involves combining multiple so
     - Express JS
     - Vue JS
     - Node JS
+</div>
+
+<div id="What are the differences among Angular JS, React JS, and Vue JS are significant, with each providing unique advantages and limitations. The selection of a framework should be based on the requirements of the project.">
 
 ### What are the differences among Angular JS, React JS, and Vue JS are significant, with each providing unique advantages and limitations. The selection of a framework should be based on the requirements of the project.
 AngularJS, ReactJS, and VueJS are three popular JavaScript frameworks that have their own strengths and weaknesses. Here are some differences between them:
@@ -165,6 +200,10 @@ AngularJS, ReactJS, and VueJS are three popular JavaScript frameworks that have 
 5. Community and resources: ReactJS has a large and active community with extensive documentation and resources, whereas AngularJS and VueJS also have good communities, but not as extensive as ReactJS.
 
 In terms of when to use each framework, it ultimately depends on the project's specific requirements, the team's expertise, and the available resources. For example, AngularJS may be a good choice for complex enterprise applications, while ReactJS may be better suited for building scalable and complex user interfaces, and VueJS may be ideal for smaller projects or for gradually implementing a new framework in an existing project.
+</div>
+
+<p style="text-align:center;font-weight: bold;">Drop some ❤️ by ⭐ing repository</p>
+<p style="text-align:center;">Share the Repository</p>
 
 
 
