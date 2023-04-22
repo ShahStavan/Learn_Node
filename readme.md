@@ -27,3 +27,28 @@ Node.js is a popular server-side JavaScript runtime environment that provides a 
 7. Community support: Node.js has a large and active community of developers who contribute to the development of the platform, provide support, and create new tools and libraries to enhance the capabilities of Node.js.
 
 Overall, these features make Node.js a popular choice for building scalable, efficient, and real-time applications using JavaScript.
+
+### How Node works behind the hood?
+Node.js works behind the hood by providing a runtime environment that allows developers to run JavaScript code on the server-side. Here's a brief overview of how Node.js works:
+
+1. When a Node.js application is started, it creates a single thread of execution, called the event loop, which is responsible for managing all I/O operations and handling events.
+    1. What is event-loop?
+        In Node.js, the event loop is a core part of the runtime environment that enables asynchronous I/O operations and handles events. The event loop is responsible for managing all I/O operations, including reading and writing to files, network requests, and database interactions.
+
+        The event loop works by constantly checking the event queue for new events to process. When an event is added to the queue, the event loop will pick it up and handle it. Events in Node.js can be triggered by various sources, including timers, I/O operations, and user-defined events.
+
+        One important aspect of the event loop is that it uses a non-blocking I/O model, which means that it doesn't block the execution of the program while waiting for I/O operations to complete. Instead, Node.js registers callbacks to be called when I/O operations are complete, allowing other operations to be processed in the meantime.
+
+        The event loop is designed to be highly efficient and can handle a large number of concurrent events and I/O operations. This makes Node.js well-suited for building real-time and scalable applications, such as web servers and APIs, chat applications, and game servers.
+
+2. Node.js uses an event-driven, non-blocking I/O model, which means that it can handle multiple requests and connections simultaneously, without blocking the event loop.
+
+3. When a request is received, Node.js creates an event and adds it to the event queue. The event loop then continuously checks the event queue for new events, and processes each event in turn.
+
+4. Asynchronous callbacks are used to handle I/O operations, such as reading or writing files, making network requests, or interacting with databases. When an I/O operation is initiated, Node.js doesn't block the event loop, but instead registers a callback function to be called when the operation is complete.
+
+5. Node.js uses a single-threaded event loop, but can handle multiple concurrent connections by delegating I/O operations to the operating system kernel, which can handle multiple threads or processes.
+
+6. Node.js also provides a module system that allows developers to organize their code into reusable modules, which can be loaded and executed on demand.
+
+Overall, Node.js provides a flexible and efficient runtime environment that allows developers to build scalable, efficient, and real-time applications using JavaScript.
