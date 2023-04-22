@@ -202,8 +202,8 @@ AngularJS, ReactJS, and VueJS are three popular JavaScript frameworks that have 
 In terms of when to use each framework, it ultimately depends on the project's specific requirements, the team's expertise, and the available resources. For example, AngularJS may be a good choice for complex enterprise applications, while ReactJS may be better suited for building scalable and complex user interfaces, and VueJS may be ideal for smaller projects or for gradually implementing a new framework in an existing project.
 </div>
 
-<p text-align="center"><b>Drop some ❤️ by ⭐ing repository</b></p>
-<p style="text-align:center;">Share the Repository</p>
+<p align="center"><b>Drop some ❤️ by ⭐ing repository</b></p>
+<p align="center"><i>Share the Repository</i></p>
 
 
 
