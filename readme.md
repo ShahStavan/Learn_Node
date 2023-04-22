@@ -78,7 +78,7 @@ Overall, asynchronous callbacks and promises are two important features of Node.
 That's it! With Node.js installed and set up, you can now start building applications using the Node.js runtime environment and its extensive ecosystem of modules and packages.
 
 ### Writing first Node JS code!!!😎
-```
+```js
 // First Code
 function latefunc() {
     console.log("This will be called Asynchronously");
