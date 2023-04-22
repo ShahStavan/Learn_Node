@@ -62,3 +62,17 @@ Promises are another way of handling asynchronous operations in Node.js. A promi
 Promises have become increasingly popular in recent years due to their simplicity and ease of use. Promises are easy to reason about, and provide a more structured way of handling asynchronous operations than traditional callback functions.
 
 Overall, asynchronous callbacks and promises are two important features of Node.js that allow developers to write efficient and non-blocking code for handling I/O operations and other types of asynchronous tasks.
+
+### What are installation and setup steps of Node JS?
+1. Download the appropriate installer for your operating system from the official Node.js website 
+<a href="https://nodejs.org">Node JS</a>.
+
+2. Double-click the installer to begin the installation process.
+
+3. Follow the prompts in the installer to select the installation directory and other settings.
+
+4. Once the installation is complete, open a terminal or command prompt and type <b><i>node -v</i></b> to verify that Node.js is installed and working correctly. This command will display the version number of Node.js that is currently installed on your system.
+
+5. To start using Node.js, you can <b>create a new JavaScript file with a .js extension</b> and begin writing code. You can run the file using the node command in the terminal, followed by the name of the file. For example, if you have a<b> file called example.js</b>, you can run it using the following command: <b><i>node example.js.</i></b>
+
+That's it! With Node.js installed and set up, you can now start building applications using the Node.js runtime environment and its extensive ecosystem of modules and packages.
