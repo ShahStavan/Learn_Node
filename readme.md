@@ -109,3 +109,29 @@ We can serve more users now. However, as we dive deeper into back-end developmen
 Node.js truly excels in this area: Assume you want to read a file! you do not need to wait for the file to be read; instead, you can just ask the OS to work on it and call you back when it’s done reading. Conveniently, asynchronous processes use this very paradigm.
 
 Processes, such as fetching data from storage or making new connections, can all be performed asynchronously, ensuring that the application does not get blocked. Furthermore, Node.js processes code sequentially. Without asynchronous operations, the entire program would halt until a file is read or a setTimeout() is called.
+
+### What is Software Stack?
+The concept of a software stack or solution stack involves combining multiple software packages to create a comprehensive software solution. Node.js is a key component in several widely used web development stacks, all of which adhere to the principle of using JavaScript throughout the entire development process.
+
+#### 1. MERN STACK
+    - MongoDB
+    - Express JS
+    - React JS
+    - Node JS
+
+#### 2. MEAN STACK
+    
+    - MongoDB
+    - Express JS
+    - Angular JS
+    - Node JS
+
+#### 3. MEVN STACK
+    
+    - MongoDB
+    - Express JS
+    - Vue JS
+    - Node JS
+
+
+
