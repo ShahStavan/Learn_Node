@@ -18,6 +18,7 @@
 11. [Beauty of Node JS❤️](#beauty-of-node-js)
 12. [What is Software Stack?](#what-is-software-stack)
 13. [What are the differences among Angular JS, React JS, and Vue JS are significant, with each providing unique advantages and limitations. The selection of a framework should be based on the requirements of the project.](#what-are-the-differences-among-angular-js-react-js-and-vue-js-are-significant-with-each-providing-unique-advantages-and-limitations-the-selection-of-a-framework-should-be-based-on-the-requirements-of-the-project)
+14. [Fetching an input from the user✌️](#Fetching an input from the user✌️)
 
 <div id="What is Node JS?">
 
@@ -206,6 +207,37 @@ AngularJS, ReactJS, and VueJS are three popular JavaScript frameworks that have 
 5. Community and resources: ReactJS has a large and active community with extensive documentation and resources, whereas AngularJS and VueJS also have good communities, but not as extensive as ReactJS.
 
 In terms of when to use each framework, it ultimately depends on the project's specific requirements, the team's expertise, and the available resources. For example, AngularJS may be a good choice for complex enterprise applications, while ReactJS may be better suited for building scalable and complex user interfaces, and VueJS may be ideal for smaller projects or for gradually implementing a new framework in an existing project.
+</div>
+
+<div id="Fetching an input from the user✌️">
+
+### Fetching an input from the user✌️
+```js
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+// Getting a single input such as name
+
+rl.question('What is your name?', (name) => {
+    console.log(`Heyy, ${name} here👋`);
+    rl.close();
+}
+);
+```
+In Node.js, we often don’t need to use console input in our program since we are usually working with programs that have an easy-to-use front-end. However, sometimes we do need to use the console for input. For that, we have the readline module. Let’s see how that works. In the code widget below, enter your name in the text box of the >_STDIN.
+
+Let’s break down the code and see what is happening:
+1. On line 1, we are importing the readline module so that we can use it in our code.
+
+2. The readline module needs an interface to work. This interface can be a file, or in our case, the console. We want to get input from the console and output some information on the console. In Node.js, the process object has two properties that can help us: the stdin for input and stdout for output. We use the createInterface method to create a new readline.Interface instance and save that as rl on line 3.
+3. We define our query on line 8. This is what will be displayed on the console.
+4. The readline.Interface has a method, which is aptly named question. This allows us to ask the user a question from the console. The question method takes a query string that we have defined before and a callback function. The callback function is passed the input as the first parameter.
+5. Our callback function is a simple console.log() with a ＄{answer} in backticks. The ＄{answer} with backticks get replaced with whatever is passed as the answer. This is done on line 11.
+6. A very important method, rl.close(), is called on line 13. This method informs the interface that we are done with our console I/O and Node.js can proceed further.
 </div>
 
 <a href="https://www.buymeacoffee.com/shahstavanq" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" align="center"></a>
