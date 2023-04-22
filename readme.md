@@ -32,7 +32,7 @@ Overall, these features make Node.js a popular choice for building scalable, eff
 Node.js works behind the hood by providing a runtime environment that allows developers to run JavaScript code on the server-side. Here's a brief overview of how Node.js works:
 
 1. When a Node.js application is started, it creates a single thread of execution, called the event loop, which is responsible for managing all I/O operations and handling events.
-    1. <b>What is event-loop?<b>
+    1. <b>What is event-loop?</b>
         <br>
         In Node.js, the event loop is a core part of the runtime environment that enables asynchronous I/O operations and handles events. The event loop is responsible for managing all I/O operations, including reading and writing to files, network requests, and database interactions.
 
