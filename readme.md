@@ -1,13 +1,13 @@
 ### What is Node JS?
 Node.js is an open-source, cross-platform, server-side JavaScript runtime environment that is built on the Chrome V8 JavaScript engine. It allows developers to run JavaScript code outside of a web browser, enabling them to build server-side applications with JavaScript. Node.js provides an event-driven, non-blocking I/O model that makes it lightweight and efficient.
-1. What is Open-Source?
-Open source refers to a software development model in which the source code of a program or application is made available to the public, allowing anyone to view, use, modify, and distribute it. This means that the code can be freely shared and modified by developers around the world, without any restriction or licensing fees.
-2. What is Cross-Platform
-Cross-platform refers to the ability of software or applications to run on multiple operating systems or platforms. This means that a program can be developed on one platform, such as Windows, and then run on another platform, such as Mac OS X or Linux, without requiring any changes to the code.
-3. What is Server-Side Javascript runtime environment?
-A server-side JavaScript runtime environment is a platform that allows developers to run JavaScript code on a server, outside of a web browser. This allows developers to create and run server-side applications using JavaScript, which was traditionally only used for client-side programming.
+1. <b>What is Open-Source?</b>
+    Open source refers to a software development model in which the source code of a program or application is made available to the public, allowing anyone to view, use, modify, and distribute it. This means that the code can be freely shared and modified by developers around the world, without any restriction or licensing fees.
+2. <b>What is Cross-Platform?</b>
+    Cross-platform refers to the ability of software or applications to run on multiple operating systems or platforms. This means that a program can be developed on one platform, such as Windows, and then run on another platform, such as Mac OS X or Linux, without requiring any changes to the code.
+3. <b>What is Server-Side Javascript runtime environment?</b>
+    A server-side JavaScript runtime environment is a platform that allows developers to run JavaScript code on a server, outside of a web browser. This allows developers to create and run server-side applications using JavaScript, which was traditionally only used for client-side programming.
 
-One popular server-side JavaScript runtime environment is Node.js. Node.js is built on the Chrome V8 JavaScript engine and provides an event-driven, non-blocking I/O model that makes it lightweight and efficient. It allows developers to build scalable, efficient, and real-time applications using JavaScript.
+    One popular server-side JavaScript runtime environment is Node.js. Node.js is built on the Chrome V8 JavaScript engine and provides an event-driven, non-blocking I/O model that makes it lightweight and efficient. It allows developers to build scalable, efficient, and real-time applications using JavaScript.
 
 ### What are features of Node JS?
 Node.js is a popular server-side JavaScript runtime environment that provides a range of features for developers. Some of the top features of Node.js include:
@@ -32,7 +32,8 @@ Overall, these features make Node.js a popular choice for building scalable, eff
 Node.js works behind the hood by providing a runtime environment that allows developers to run JavaScript code on the server-side. Here's a brief overview of how Node.js works:
 
 1. When a Node.js application is started, it creates a single thread of execution, called the event loop, which is responsible for managing all I/O operations and handling events.
-    1. What is event-loop?
+    1. <b>What is event-loop?<b>
+        <br>
         In Node.js, the event loop is a core part of the runtime environment that enables asynchronous I/O operations and handles events. The event loop is responsible for managing all I/O operations, including reading and writing to files, network requests, and database interactions.
 
         The event loop works by constantly checking the event queue for new events to process. When an event is added to the queue, the event loop will pick it up and handle it. Events in Node.js can be triggered by various sources, including timers, I/O operations, and user-defined events.
@@ -52,3 +53,12 @@ Node.js works behind the hood by providing a runtime environment that allows dev
 6. Node.js also provides a module system that allows developers to organize their code into reusable modules, which can be loaded and executed on demand.
 
 Overall, Node.js provides a flexible and efficient runtime environment that allows developers to build scalable, efficient, and real-time applications using JavaScript.
+
+### What are Asynchoronous-Callbacks and Promises in Node JS?
+Asynchronous callbacks are functions that are executed after an asynchronous operation is completed. For example, when reading a file using the fs module in Node.js, you can provide a callback function to be executed when the file has been read. This callback function will be called asynchronously, meaning that the program will continue to execute while the file is being read. Asynchronous callbacks are often used in Node.js to handle I/O operations, network requests, and other types of asynchronous operations.
+
+Promises are another way of handling asynchronous operations in Node.js. A promise is an object that represents a value that may not be available yet. Promises can be used to handle asynchronous operations by returning a promise object instead of a callback function. The promise object represents the eventual completion of the operation, and can be used to chain multiple asynchronous operations together.
+
+Promises have become increasingly popular in recent years due to their simplicity and ease of use. Promises are easy to reason about, and provide a more structured way of handling asynchronous operations than traditional callback functions.
+
+Overall, asynchronous callbacks and promises are two important features of Node.js that allow developers to write efficient and non-blocking code for handling I/O operations and other types of asynchronous tasks.
