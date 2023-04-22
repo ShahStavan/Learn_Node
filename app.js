@@ -3,6 +3,6 @@ function latefunc() {
     console.log("This will be called Asynchronously");
 }
 
-console.log("Hello World");
-setTimeout(latefunc,2000)
-console.log("Namaste")
+console.log("Welcome to the Node World");
+setTimeout(latefunc,2000) // try to change the time parameter(second one) in settimeout function
+console.log("Namaste🙏")

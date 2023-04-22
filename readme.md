@@ -32,7 +32,7 @@ Overall, these features make Node.js a popular choice for building scalable, eff
 Node.js works behind the hood by providing a runtime environment that allows developers to run JavaScript code on the server-side. Here's a brief overview of how Node.js works:
 
 1. When a Node.js application is started, it creates a single thread of execution, called the event loop, which is responsible for managing all I/O operations and handling events.
-    1. <b>What is event-loop?</b>
+    1. <b>What is an event-loop?</b>
         <br>
         In Node.js, the event loop is a core part of the runtime environment that enables asynchronous I/O operations and handles events. The event loop is responsible for managing all I/O operations, including reading and writing to files, network requests, and database interactions.
 
@@ -76,3 +76,15 @@ Overall, asynchronous callbacks and promises are two important features of Node.
 5. To start using Node.js, you can <b>create a new JavaScript file with a .js extension</b> and begin writing code. You can run the file using the node command in the terminal, followed by the name of the file. For example, if you have a<b> file called example.js</b>, you can run it using the following command: <b><i>node example.js.</i></b>
 
 That's it! With Node.js installed and set up, you can now start building applications using the Node.js runtime environment and its extensive ecosystem of modules and packages.
+
+### Writing first Node JS code!!!😎
+```
+// First Code
+function latefunc() {
+    console.log("This will be called Asynchronously");
+}
+
+console.log("Welcome to the Node World");
+setTimeout(latefunc,2000) // try to change the time parameter(second one) in settimeout function
+console.log("Namaste🙏")
+```
